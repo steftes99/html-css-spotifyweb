@@ -221,6 +221,16 @@ hr{
     font-family: 'Noto Sans JP', sans-serif;
     font-weight: 400;
 }
-
+.ascolti{
+    color: #a3a3a3;
+    background-color: #141922;
+    display: block;
+    padding: 5px 10px;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 400;
+}
+.round{
+    border-radius: 50%;
+}
 
 
