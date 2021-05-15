@@ -232,5 +232,71 @@ hr{
 .round{
     border-radius: 50%;
 }
+.player{
+    height: 15vh;
+    background-color: #282828;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.left{
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    flex-shrink: 2;
+}
+.left > img{
+    width: 15%;
+    display: inline-block;
+    margin-right: 10px;
+}
+.icons{
+    width: 20%;
+    display: flex;
+    justify-content: space-around;
+    color: #a3a3a3;
+    font-size: 18px;
+    margin-left: 10%;
+}
+.right{
+    color: #a9a9a9;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px;
+
+}
+.right > i{
+    margin: 0 10px;
+}
+
+.volume{
+    width: 100px;
+    height: 5px;
+    background-color: #a9a9a9;
+    border-radius: 2px;   
+}
+.center{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+.top{
+    display: flex;
+    width: 50%;
+    font-size: 20px;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    padding-bottom: 20px;
+    margin: auto;
+}
+.song{
+    width: 80%;
+    height: 5px;
+    border-radius: 2px;
+    background-color: #a3a3a3;
+    margin: auto;
+}
 
 
